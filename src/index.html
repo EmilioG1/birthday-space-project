@@ -4,7 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <title>Your Birthday</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Your Birthday</h1>
+      <form id="birthday">
+        <label for="">Enter your birthday</label>
+        <input type="date" id="date-input" placeholder="put it here" required />
+        <button type="submit" class="btn btn-info">Space B-Day</button>
+      </form>
+      <p id="error-message" class="error"></p>
+      <h1 id="response" class="hidden">Photo of the day</h1>
+      <div id="image-of-day">
+        <img
+          id="date-image"
+          class="hidden"
+          width="520"
+          height="520"
+          src=""
+          alt=""
+        />
+        <iframe id="date-video" class="hidden" width="520" height="520" src="">
+        </iframe>
+      </div>
+      <div id="mars-photos" class="hidden">
+        <h1>On your birthday last year</h1>
+        <h1>the mars rover took these photos!</h1>
+        <div id="photo-block"></div>
+      </div>
+      <h1 id="response2" class="hidden">And this was happening on earth:</h1>
+      <div id="newspaper-articles"></div>
+      <h1 id="response3" class="hidden">Top Ten Songs on your Birthday</h1>
+      <div id="songs"></div>
+    </div>
+  </body>
 </html>

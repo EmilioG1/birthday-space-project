@@ -1,0 +1,128 @@
+body {
+  color: rgb(32, 142, 238);
+  text-align: center;
+  font-family: "Righteous", cursive;
+  background-size: cover;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  background-color: rgb(187, 194, 200);
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  padding: 10px;
+  border-width: 8px;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 10px;
+  border-radius: 50%;
+  border-color: rgb(130, 172, 236);
+  box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19),
+    0 12px 12px rgba(72, 10, 10, 0.23);
+  transition: all 3.5s;
+  width: 350px;
+  height: 350px;
+}
+img:hover {
+  filter: none;
+  transform: scale(1.2) rotate(5deg);
+}
+#date-image {
+  padding: 10px;
+  border-width: 8px;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 10px;
+  border-radius: 50%;
+  border-color: rgb(130, 172, 236);
+  box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19),
+    0 12px 12px rgba(72, 10, 10, 0.23);
+  filter: blur(20px) grayscale();
+  transition: all 2s;
+  width: 520px;
+  height: 520px;
+}
+#date-image:hover {
+  filter: none;
+  transform: scale(1.2) rotate(5deg);
+}
+iframe {
+  padding: 10px;
+  border-width: 8px;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 10px;
+  border-radius: 50%;
+  border-color: rgb(130, 172, 236);
+  box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19),
+    0 12px 12px rgba(72, 10, 10, 0.23);
+  filter: blur(20px) grayscale();
+  transition: all 2s;
+}
+iframe:hover {
+  filter: none;
+  transform: scale(1.2);
+}
+#photo-block {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 90%;
+  margin: auto;
+}
+#photo-block img {
+  display: block;
+}
+#newspaper-articles {
+  text-align: center;
+  margin-top: 50px;
+}
+.article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.article-content {
+  padding-left: 15px;
+  width: 60%;
+}
+.article-content h3 {
+  color: black;
+}
+.article-content p {
+  font-style: italic;
+}
+.paper-cover {
+  background-image: url("https://i.insider.com/51586445eab8eadf2b000011?width=600&format=jpeg&auto=webp");
+  font-family: "Courier New", Courier, monospace;
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+  position: relative;
+  border: solid 3px #6e7491;
+  padding: 40px 60px;
+  max-width: 800px;
+  width: 70%;
+  margin: 100px auto 0;
+  font-size: 17px;
+  line-height: 28px;
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+}
+.song h3 {
+  color: black;
+}
+.song p {
+  font-style: italic;
+}
+.error {
+  color: red;
+}
